@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-image: linear-gradient(
+       grey,
+       black,
+       plum
+    );
+    height: 100vh;
+}
+
+h1{
+    text-shadow: 3px 3px 5px rebeccapurple;
+}
+
+#btn1 {
+    width: 260px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: plum;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    box-shadow: 5px 5px 10px grey;
+}
+#btn1:hover{
+    background-color:aqua;
+    cursor: pointer;
+}
+
+#btn2 {
+    width: 260px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: plum;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    box-shadow: 5px 5px 10px grey;
+}
+#btn2:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.container1 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: aqua;
+    position: fixed;
+    top: 250px;
+    left: 370px;
+}
+.container1:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+#p1{
+    background-color: rebeccapurple;
+    text-decoration: underline;
+}
+
+.container2 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: violet;
+    position: fixed;
+    top: 249px;
+    left: 800px;
+}
+.container2:hover{
+    background-color: green;
+    cursor: pointer;
+}
+#p2{
+    color: white;
+    background-color: tomato;
+    text-decoration: underline;
+}
